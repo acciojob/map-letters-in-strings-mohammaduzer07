@@ -6,7 +6,7 @@ function mapLetters(word) {
 		if(objMap.hasOwnProperty(char)){
 			objMap[char].push(i);
 		} else {
-			objMap[char] = i;
+			objMap[char] = [i];
 		}
 	}
 	return objMap;
